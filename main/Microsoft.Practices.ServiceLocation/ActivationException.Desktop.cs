@@ -3,9 +3,12 @@ using System.Runtime.Serialization;
 
 namespace Microsoft.Practices.ServiceLocation
 {
+#if net451
     [Serializable]
+#endif
     public partial class ActivationException
     {
+#if net451
         /// <summary>
         /// Initializes a new instance of the <see cref="T:System.Exception" /> class with serialized data.
         /// </summary>
@@ -22,5 +25,6 @@ namespace Microsoft.Practices.ServiceLocation
         /// The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). 
         /// </exception>
         protected ActivationException(SerializationInfo info, StreamingContext context) : base(info, context) {}
+#endif
     }
 }

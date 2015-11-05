@@ -1,0 +1,42 @@
+﻿{
+  "version": "2.0.0",
+  "description": "Microsoft.Practices.ServiceLocation Class Library",
+  "authors": [ "" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": {
+    },
+    "net451": {
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23409",
+        "System.Collections": "4.0.11-beta-23409",
+        "System.Linq": "4.0.1-beta-23409",
+        "System.Runtime": "4.0.21-beta-23409",
+        "System.Threading": "4.0.11-beta-23409",
+        "System.Runtime.Serialization.Primitives": "4.0.11-beta-23409",
+        "System.ComponentModel": "4.0.1-beta-23409",
+        "System.Diagnostics.Tools": "4.0.1-beta-23409",
+        "System.Reflection": "4.1.0-beta-23409"
+      }
+    },
+    "dotnet5.1": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23409",
+        "System.Collections": "4.0.11-beta-23409",
+        "System.Linq": "4.0.1-beta-23409",
+        "System.Runtime": "4.0.21-beta-23409",
+        "System.Threading": "4.0.11-beta-23409",
+        "System.Runtime.Serialization.Primitives": "4.0.11-beta-23409",
+        "System.ComponentModel": "4.0.1-beta-23409",
+        "System.Diagnostics.Tools": "4.0.1-beta-23409",
+        "System.Reflection": "4.1.0-beta-23409"
+      }
+    }
+
+  }
+
+}

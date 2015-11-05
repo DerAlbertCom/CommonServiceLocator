@@ -1,0 +1,5 @@
+.vs
+*.user
+*.lock.json
+bin
+obj
